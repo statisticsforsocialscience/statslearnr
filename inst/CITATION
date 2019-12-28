@@ -1,0 +1,16 @@
+citHeader("To cite statslearnr in publications use:")
+
+citEntry(
+  entry    = "Manual",
+  title    = "statslearnr - a package to learn basic statistcs",
+  author   = "André Calero Valdez",
+  journal  = "",
+  year     = "2019",
+  volume   = "",
+  number   = 2,
+  pages    = "",
+  url      = "",
+  textVersion = paste(
+    "André Calero Valdez. statslearnr - a package to learn basic statistcs. 2019"
+  )
+)

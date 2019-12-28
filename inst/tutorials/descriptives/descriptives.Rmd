@@ -1,0 +1,57 @@
+---
+title: "Deskriptive Statistik"
+output: learnr::tutorial
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+library(dataforsocialscience)
+knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+
+## Einführung
+
+Deskriptive Statistik dient erhobene Daten effektiver und einfacher darstellen zu können.
+Stell Dir vor, wir haben mit einer Umfrage Daten gesammelt und diese in R geladen. 
+Wir haben 293 Probanden befragt und unsere Variablen bereits richtig kodiert und Skalen berechnet.
+
+### Daten direkt anzeigen
+
+*Führe folgende Zeile aus, um einen Einblick in die Daten zu bekommen.*
+```{r show_data, exercise = TRUE, exercise.lines = 2}
+dataforsocialscience::robo_care
+```
+
+
+Was fällt Dir auf? Wie hilfreich ist für Dich die tabellarische Übersicht der Daten?
+
+```{r quiz_1}
+quiz(
+  question("Was ist an dieser Darstellung problematisch?",
+    answer("Die Daten könnten verfälscht sein."),
+    answer("Die Daten sind einseitig"),
+    answer("Durch die Menge an Daten, fällt es schwer die Daten zu verstehen.", correct = TRUE),
+    answer("Die Bedeutung und Kodierung der Variablen ist nicht mehr zu sehen", correct = TRUE), 
+    random_answer_order = T
+  )
+)
+```
+
+
+## Zentrale Tendenz
+
+
+### Exercise 
+
+*Here's a simple exercise with an empty code chunk provided for entering the answer.*
+
+Write the R code required to add two plus two:
+
+```{r two-plus-two, exercise=TRUE}
+
+```
+
+![](https://youtu.be/zNzZ1PfUDNk)

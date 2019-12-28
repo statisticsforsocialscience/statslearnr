@@ -1,0 +1,20 @@
+Package: statslearnr
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "André",
+           family = "Calero Valdez",
+           role = c("aut", "cre"),
+           email = "andrecalerovaldez@gmail.com",
+           comment = c(ORCID = "0000-0002-6214-1461"))
+Description: This package contains a set of tutorials to learn statistics in a social science setting. The content is german!
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 2.1.0)
+Imports: 
+    learnr,
+    magrittr,
+    tibble
+RoxygenNote: 7.0.2
